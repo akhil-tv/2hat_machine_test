@@ -1,6 +1,5 @@
 <?php
 //$date - Y-m-d format
-require_once 'config.php';
 function getShippingDate($orderDate) {
 
     $orderTimeString = strtotime($orderDate);               // converting date object into string
